@@ -1,3 +1,13 @@
+---
+title: My TDS Project
+emoji: 🧮
+colorFrom: blue
+colorTo: green
+sdk: gradio
+sdk_version: "3.39.0"
+app_file: app.py
+pinned: false
+---
 # LLM Code Deployment - Student Service
 
 This project implements the student-side service for the LLM Code Deployment assignment.
@@ -16,7 +26,6 @@ Environment
 - `secret` - The secret students registered in the form (the server reads `secret` env var; `SHARED_SECRET` is also supported as a fallback).
 - `GITHUB_OWNER` - Optional: GitHub username/organization to create repos under (default: authenticated user).
 - `OPENAI_API_KEY` - Optional: provide to enable LLM-assisted generation.
-
 
 Quick start
 

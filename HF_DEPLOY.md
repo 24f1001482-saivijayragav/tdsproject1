@@ -1,13 +1,3 @@
----
-title: My TDS Project
-emoji: 🧮
-colorFrom: blue
-colorTo: green
-sdk: gradio
-sdk_version: "3.39.0"
-app_file: app.py
-pinned: false
----
 # Deploying to Hugging Face Spaces (static Python space)
 
 This project can be hosted on Hugging Face Spaces as a simple Python web app.
