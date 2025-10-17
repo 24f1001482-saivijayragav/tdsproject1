@@ -1,0 +1,45 @@
+Round 1
+
+{
+  "email": "23f2003886@ds.study.iitm.ac.in",
+  "secret": "dsokcvnsdovcnsdonv",
+  "task": "demo-task",
+  "round": 1,
+  "nonce": "n1",
+  "brief": "Create an AI Captcha Solver that is used to solve Captcha",
+  "checks": [
+    "string"
+  ],
+  "evaluation_url": "http://127.0.0.1:9000/eval",
+  "attachments": [
+    {
+      "name": "string",
+      "url": "string"
+    }
+  ]
+}
+
+
+Round 2
+
+{
+  "email": "23f2003886@ds.study.iitm.ac.in",
+  "secret": "dsokcvnsdovcnsdonv",
+  "task": "demo-task",
+  "round": 2,
+  "nonce": "n2",
+  "brief": "Round 2: Update the AI Captcha Solver to have frontend and adda page to add a results area #solved-text, accept SVG images, and display a status message in #captcha-status. Keep existing functionality.",
+  "checks": [
+    "Repo has MIT license",
+    "README.md updated for round 2",
+    "js: !!document.querySelector('#solved-text')",
+    "js: document.querySelector('#captcha-status').textContent.length > 0"
+  ],
+  "evaluation_url": "http://127.0.0.1:9000/eval",
+  "attachments": [
+    {
+      "name": "round2-sample.svg",
+      "url": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMCIgaGVpZ2h0PSIxMCI+PHRleHQgeD0iMCIgeT0iOCI+U0ZHIFRlc3Q8L3RleHQ+PC9zdmc+"
+    }
+  ]
+}
